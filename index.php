@@ -15,7 +15,6 @@
       <h1>Certificates</h1>
     </div>
   </header>
-  
 
   <section class="timeline">
     <div class="container">
