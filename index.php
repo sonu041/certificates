@@ -26,11 +26,12 @@
     $json_data = json_decode($json,true);
 
     foreach ($json_data as $key => $value) {
-      foreach ($value as $key => $val) { 
+      foreach ($value as $key => $val) {
     ?>
+    
         <div class="timeline-item">
           <div class="timeline-img"></div>
-          <div class="timeline-content timeline-card <?php echo $val['orientation']; ?>">
+          <div class="timeline-content timeline-card <?php echo $key%2==0?'js--fadeInLeft':'js--fadeInRight'; ?>">
             <img src="<?php echo $val['image_file']; ?>" width="100%">
             <div class="date"><?php echo $val['date']; ?></div>
             <p><?php echo $val['description']; ?></p>
