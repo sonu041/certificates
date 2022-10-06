@@ -7,6 +7,15 @@
   <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
   <link rel="stylesheet" href="css/style.css">
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NZNFZYCFN1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-NZNFZYCFN1');
+  </script>
 </head>
 
 <body>
