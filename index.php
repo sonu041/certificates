@@ -2,11 +2,13 @@
 <html >
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Certificate Timeline</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:100i,300,400,500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="https://raw.githubusercontent.com/sonu041/certificates/main/assets/ss.png" type="image/icon type">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-NZNFZYCFN1"></script>
   <script>
