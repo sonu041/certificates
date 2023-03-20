@@ -6,6 +6,11 @@
           "description" : "Udemy The Complete Guide to Becoming Software Architect"
         },
         {
+          "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2022_12_22_GCP_PCA.png",
+          "date": "22 DEC 2022",
+          "description" : "Google Cloud Platform - Professional Cloud Architect <a href='https://www.credential.net/19066c94-b2b1-4b8c-825b-53b2a9fdd77d' target='_blank' class='btn'>Validate</a>"
+        },
+        {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2022_12_08_TCS_(S)miles_Award.png",
           "date": "08 DEC 2022",
           "description" : "TCS Smile Award"
