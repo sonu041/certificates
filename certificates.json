@@ -1,6 +1,16 @@
 {
     "data": [
         {
+          "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2024_11_26_GCP_Developer.png",
+          "date": "26 NOV 2024",
+          "description" : "Google Cloud Platform - Professional Cloud Developer <a href='https://www.credly.com/badges/20eb211e-9082-46d4-823f-2493ef4b3b2f/public_url' target='_blank' class='btn'>Validate</a>"
+        },
+        {
+          "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2024_09_12_Infy_Rookie_certificate.jpeg",
+          "date": "12 SEP 2024",
+          "description" : "Infy Rookie Award"
+        },
+        {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2023_02_14_TCS_Special_Initiative_Award.png",
           "date": "14 FEB 2023",
           "description" : "Special Initiative Award"
