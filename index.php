@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/modal.css">
   <link rel="icon" href="https://raw.githubusercontent.com/sonu041/certificates/main/assets/ss.png" type="image/icon type">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-NZNFZYCFN1"></script>
@@ -74,8 +75,16 @@
     ?>
     </div>
   </section>   
+  <div class="modal-overlay" id="imageModal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <div class="modal-description"></div>
+      <img id="modalImage" src="" alt="Certificate">
+    </div>
+  </div>
   <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
   <script src='https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js'></script>
   <script src="js/index.js"></script>
+  <script src="js/modal.js"></script>
 </body>
 </html>
