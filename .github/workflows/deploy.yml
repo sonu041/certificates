@@ -1,23 +1,20 @@
-name: Deploy to GoDaddy
-
-on:
+on: 
   push:
     branches:
-      - main  # or your default branch name
-
+      - main
+name: 🚀 Deploy website on push
 jobs:
-  deploy:
+  web-deploy:
+    name: 🎉 Deploy
     runs-on: ubuntu-latest
-    
     steps:
-    - uses: actions/checkout@v4
+    - name: 🚚 Get latest code
+      uses: actions/checkout@v3
     
-    - name: Deploy to GoDaddy
-      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+    - name: 📂 Sync files
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ${{ secrets.FTP_SERVER }}
-        username: ${{ secrets.FTP_USERNAME }}
-        password: ${{ secrets.FTP_PASSWORD }}
-        local-dir: ./
-        server-dir: ${{ secrets.FTP_SERVER_DIR }}
-        dangerous-clean-slate: false # Set to true if you want to delete all files in the server directory before uploading 
+        server: ${{ secrets.ftp_hostname }}
+        username: ${{ secrets.ftp_username }}
+        password: ${{ secrets.ftp_password }}
+        server-dir: certificates/
