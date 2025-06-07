@@ -228,3 +228,12 @@ blockquote {
   }
   
 }
+
+.timeline-content img {
+  width: 100%;
+  max-height: 350px; /* Limit the height to show half of large images */
+  object-fit: cover; /* This will crop the image while maintaining aspect ratio */
+  object-position: top; /* Changed from center to top to show the top part of the image */
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
