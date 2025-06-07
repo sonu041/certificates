@@ -22,8 +22,11 @@
 
 <body>
   <header>
-    <div class="container text-center">
-      <h1>Certificates</h1>
+    <div class="container">
+      <div class="header-content">
+        <a href="/" class="home-btn">Home</a>
+        <h1 class="text-center">Certificates</h1>
+      </div>
     </div>
   </header>
   <?php

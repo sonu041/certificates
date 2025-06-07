@@ -25,6 +25,36 @@ header {
   color: #FFFFFF;
   padding: 15px 0;
 }
+
+.header-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.home-btn {
+  position: absolute;
+  left: 0;
+  background: transparent;
+  border: 2px solid #FFFFFF;
+  padding: 5px 15px;
+  transition: all 0.3s ease;
+}
+
+.home-btn:hover {
+  background: #FFFFFF;
+  color: #3F51B5;
+}
+
+header h1 {
+  width: 100%;
+  margin: 0;
+  font-size: 200%;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 400;
+}
+
 header p {
   font-family: 'Allura';
   color: rgba(255, 255, 255, 0.2);
