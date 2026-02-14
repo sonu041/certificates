@@ -3,137 +3,164 @@
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2025_12_26_Infosys_TechMaestro.png",
           "date": "26 DEC 2025",
-          "description" : "Infosys TechMaestro"
+          "description" : "Infosys TechMaestro",
+          "tag": "Infosys, TechMaestro"
         },
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2025_12_12_Infosys_SkillTag.png",
           "date": "12 DEC 2025",
-          "description" : "Infosys SkillTag"
+          "description" : "Infosys SkillTag",
+          "tag": "Infosys, SkillTag"
         },
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2025_09_10_GCP_Generative_AI_Leader.png",
           "date": "10 SEP 2025",
-          "description" : "Google Cloud Platform - Generative AI Leader"
+          "description" : "Google Cloud Platform - Generative AI Leader",
+          "tag": "GCP, Google Cloud, Generative AI, AI"
         },
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2025_01_12_TCS_Run.png",
           "date": "12 JAN 2025",
-          "description" : "TCS Corporate Challange 5K Run 2025"
+          "description" : "TCS Corporate Challange 5K Run 2025",
+          "tag": "TCS, Run, Sports"
         },
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2024_11_26_GCP_Developer.png",
           "date": "26 NOV 2024",
-          "description" : "Google Cloud Platform - Professional Cloud Developer <a href='https://www.credly.com/badges/20eb211e-9082-46d4-823f-2493ef4b3b2f/public_url' target='_blank' class='btn'>Validate</a>"
+          "description" : "Google Cloud Platform - Professional Cloud Developer <a href='https://www.credly.com/badges/20eb211e-9082-46d4-823f-2493ef4b3b2f/public_url' target='_blank' class='btn'>Validate</a>",
+          "tag": "GCP, Google Cloud, Cloud Developer, Cloud"
         },
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2024_09_12_Infy_Rookie_certificate.jpeg",
           "date": "12 SEP 2024",
-          "description" : "Infy Rookie Award"
+          "description" : "Infy Rookie Award",
+          "tag": "Infosys, Award, Rookie"
         },
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2023_02_14_TCS_Special_Initiative_Award.png",
           "date": "14 FEB 2023",
-          "description" : "Special Initiative Award"
+          "description" : "Special Initiative Award",
+          "tag": "TCS, Award, Initiative"
         },
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2023_01_17_TCS_Special_Initiative_Award.png",
           "date": "17 JAN 2023",
-          "description" : "Special Initiative Award"
+          "description" : "Special Initiative Award",
+          "tag": "TCS, Award, Initiative"
         },
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2023_01_06_Udemy_Become_Software_Architect.jpg",
           "date": "06 JAN 2023",
-          "description" : "Udemy The Complete Guide to Becoming Software Architect"
+          "description" : "Udemy The Complete Guide to Becoming Software Architect",
+          "tag": "Udemy, Software Architect, Architecture"
         },
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2022_12_22_GCP_PCA.png",
           "date": "22 DEC 2022",
-          "description" : "Google Cloud Platform - Professional Cloud Architect <a href='https://www.credly.com/badges/ff15fe1d-1b1f-428d-90d3-09642e14244a' target='_blank' class='btn'>Validate</a>"
+          "description" : "Google Cloud Platform - Professional Cloud Architect <a href='https://www.credly.com/badges/ff15fe1d-1b1f-428d-90d3-09642e14244a' target='_blank' class='btn'>Validate</a>",
+          "tag": "GCP, Google Cloud, Cloud Architect, Architecture, Professional"
         },
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2022_12_08_TCS_(S)miles_Award.png",
           "date": "08 DEC 2022",
-          "description" : "TCS Smile Award"
+          "description" : "TCS Smile Award",
+          "tag": "TCS, Award, Recognition"
         },
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2022_09_30_Appreciation_Certificate.png",
           "date": "30 SEP 2022",
-          "description" : "TCS Feedback Enthusiast Certificate"
+          "description" : "TCS Feedback Enthusiast Certificate",
+          "tag": "TCS, Feedback, Enthusiast"
         },
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2022_09_07_GCP_ACE_Certificate.PNG",
           "date": "7 SEP 2022",
-          "description" : "Google Cloud Platform - Associate Cloud Engineer <a href='https://www.credly.com/badges/34937398-282c-47bc-8844-8dd45bdd8ff6' target='_blank' class='btn'>Validate</a>"
+          "description" : "Google Cloud Platform - Associate Cloud Engineer <a href='https://www.credly.com/badges/34937398-282c-47bc-8844-8dd45bdd8ff6' target='_blank' class='btn'>Validate</a>",
+          "tag": "GCP, Google Cloud, Cloud Engineer, Associate"
         },
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2022_09_03_TCS_(S)miles_Award.PNG",
           "date": "3 SEP 2022",
-          "description" : "TCS Smile Award given for taking interview."
+          "description" : "TCS Smile Award given for taking interview.",
+          "tag": "TCS, Award, Interview"
         },
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2022_08_26_GCP_CDL_Certificate.png",
           "date": "26 AUG 2022",
-          "description" : "Google Cloud Platform - Cloud Digital Leader <a href='https://www.credly.com/badges/2eb42e00-873e-4d1b-ae17-3f47928a72ce' target='_blank' class='btn'>Validate</a>"
+          "description" : "Google Cloud Platform - Cloud Digital Leader <a href='https://www.credly.com/badges/2eb42e00-873e-4d1b-ae17-3f47928a72ce' target='_blank' class='btn'>Validate</a>",
+          "tag": "GCP, Google Cloud, Digital Leader, Leadership"
         },
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2022_07_14_Google%20Cloud%20Migration%20Summit%202022.png",
           "date": "14 JUL 2022",
-          "description" : "Google Cloud Migration Summit"
+          "description" : "Google Cloud Migration Summit",
+          "tag": "GCP, Google Cloud, Migration, Summit"
         },
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2022_06_13_TCS_(S)miles_Award.png",
           "date": "13 JUN 2022",
-          "description" : "TCS Smile Award given for taking interview."
+          "description" : "TCS Smile Award given for taking interview.",
+          "tag": "TCS, Award, Interview"
         },
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2022_04_12_TCS_(S)miles_Award.png",
           "date": "12 APR 2022",
-          "description" : "TCS Smile Award given for taking interview."
+          "description" : "TCS Smile Award given for taking interview.",
+          "tag": "TCS, Award, Interview"
         },
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2022_02_10_TCS_GnT_Awareness_E0.png",
           "date": "10 FEB 2022",
-          "description" : "Completion of Growth and Transformation course."
+          "description" : "Completion of Growth and Transformation course.",
+          "tag": "TCS, Growth, Transformation, Training"
         },
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2022_02_08_TCS_(S)miles_Award.png",
           "date": "8 FEB 2022",
-          "description" : "TCS Smile Award given for taking interview."
+          "description" : "TCS Smile Award given for taking interview.",
+          "tag": "TCS, Award, Interview"
         },
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2022_01_09_Google_Play_Store_Listing.png",
           "date": "9 JAN 2022",
-          "description" : "Google Play store listing certification."
+          "description" : "Google Play store listing certification.",
+          "tag": "Google Play, App Store, Mobile"
         },
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2021_11_26_TCS_Security_Game_200_Special_Initiative_Award.png",
           "date": "26 NOV 2021",
-          "description" : "TCS Security game winner."
+          "description" : "TCS Security game winner.",
+          "tag": "TCS, Security, Game, Winner"
         },
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2021_11_26_TCS_CM_Hackathon_500_Innovation_Pride_Award.png",
           "date": "26 NOV 2021",
-          "description" : "Contextual Master Hackathon winner."
+          "description" : "Contextual Master Hackathon winner.",
+          "tag": "TCS, Hackathon, Innovation, Winner"
         },
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2021_11_26_OCI_Foundation.png",
           "date": "26 NOV 2021",
-          "description" : "OCI Foundation Certification."
+          "description" : "OCI Foundation Certification.",
+          "tag": "OCI, Oracle Cloud, Foundation"
         },
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2021_11_08_TCS_176_Fresco_Play_Miles_Award.png",
           "date": "8 NOV 2021",
-          "description" : "Completion of courses in Fresco Play."
+          "description" : "Completion of courses in Fresco Play.",
+          "tag": "TCS, Fresco Play, Training, Courses"
         },
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2021_06_21_TCS_Find_Your_Everest.png",
           "date": "21 JUN 2021",
-          "description" : "TCS Leadership Training Program: Find Your Everest"
+          "description" : "TCS Leadership Training Program: Find Your Everest",
+          "tag": "TCS, Leadership, Training, Development"
         },
         {
           "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2021_01_27_TCS_BEH_2020.png",
           "date": "27 JAN 2021",
-          "description" : "1st in TCS Best Ethical Hacking Contest 2020"
+          "description" : "1st in TCS Best Ethical Hacking Contest 2020",
+          "tag": "TCS, Hacking, Security, Contest, 1st Place"
         }
     ]
 }

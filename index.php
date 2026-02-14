@@ -27,6 +27,14 @@
       <div class="header-content">
         <a href="/" class="home-btn">Home</a>
         <h1 class="text-center">Certificates</h1>
+        <div class="search-section">
+          <div class="input-group">
+            <input type="text" id="searchInput" class="form-control" placeholder="Search certificates by date or description...">
+            <span class="input-group-btn">
+              <button id="searchBtn" class="btn btn-primary">Search</button>
+            </span>
+          </div>
+        </div>
       </div>
     </div>
   </header>
@@ -86,5 +94,6 @@
   <script src='https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js'></script>
   <script src="js/index.js"></script>
   <script src="js/modal.js"></script>
+  <script src="js/search.js"></script>
 </body>
 </html>
