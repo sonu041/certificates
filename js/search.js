@@ -16,6 +16,11 @@ $(document).ready(function() {
     performSearch();
   });
 
+  // Menu toggle for mobile
+  $('#menuToggle').click(function() {
+    $('.nav-menu').toggleClass('open');
+  });
+
   // Enter key in search input
   $('#searchInput').keypress(function(e) {
     if (e.which == 13) {
