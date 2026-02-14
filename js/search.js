@@ -21,6 +21,24 @@ $(document).ready(function() {
     $('.nav-menu').toggleClass('open');
   });
 
+  // Tag button click: populate search input and run search
+  $(document).on('click', '.tag-btn', function() {
+    let tag = $(this).data('tag') || $(this).text();
+    // active state for tags
+    $('.tag-btn').removeClass('active');
+    $(this).addClass('active');
+
+    if (typeof tag === 'string' && tag.toUpperCase() === 'ALL') {
+      // Clear search input to show all certificates
+      $('#searchInput').val('');
+    } else {
+      $('#searchInput').val(tag);
+    }
+    // close mobile menu if open
+    $('.nav-menu').removeClass('open');
+    performSearch();
+  });
+
   // Enter key in search input
   $('#searchInput').keypress(function(e) {
     if (e.which == 13) {
@@ -33,6 +51,14 @@ $(document).ready(function() {
 function performSearch() {
   const searchTerm = $('#searchInput').val().toLowerCase().trim();
   
+  // update tag active states based on manual search
+  if (searchTerm === '') {
+    $('.tag-btn').removeClass('active');
+    $('.tag-btn[data-tag="ALL"]').addClass('active');
+  } else {
+    $('.tag-btn').removeClass('active');
+  }
+
   let filteredCertificates;
   
   if (searchTerm === '') {

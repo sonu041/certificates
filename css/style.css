@@ -261,6 +261,51 @@ blockquote {
   min-width: 280px;
 }
 
+  /* Tag list styles */
+  .tag-list {
+    margin-top: 8px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .tag-btn {
+    background: rgba(255,255,255,0.12);
+    color: #fff;
+    border: 1px solid rgba(255,255,255,0.12);
+    padding: 6px 10px;
+    font-size: 13px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .tag-btn:hover {
+    background: rgba(255,255,255,0.18);
+  }
+
+  .tag-btn.active {
+    background: #fff;
+    color: #3949ab;
+    border-color: #fff;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  }
+
+/* Tag bar below header */
+.tag-bar {
+  background: #3949ab; /* slightly darker than header */
+  padding: 8px 0;
+}
+.tag-bar .tag-list {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media (min-width: 992px) {
+  .tag-bar .tag-list {
+    justify-content: center; /* center tags on larger screens */
+  }
+}
+
 @media screen and (max-width: 768px) {
   .menu-toggle {
     display: inline-block;

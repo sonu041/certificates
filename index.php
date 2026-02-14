@@ -41,6 +41,19 @@
       </div>
     </div>
   </header>
+
+  <!-- Tag bar below header -->
+  <div class="tag-bar">
+    <div class="container">
+      <div class="tag-list">
+        <button class="tag-btn btn btn-default" data-tag="ALL">All</button>
+        <button class="tag-btn btn btn-default" data-tag="GCP">GCP</button>
+        <button class="tag-btn btn btn-default" data-tag="Run">Run</button>
+        <button class="tag-btn btn btn-default" data-tag="TCS">TCS</button>
+        <button class="tag-btn btn btn-default" data-tag="Infosys">Infosys</button>
+      </div>
+    </div>
+  </div>
   <?php
   // Read the JSON file
   $json = file_get_contents('https://raw.githubusercontent.com/sonu041/certificates/main/certificates.json');
