@@ -82,7 +82,7 @@
             "date": "08 DEC 2022",
             "description": "TCS Smile Award",
             "tag": "TCS, Award, Recognition",
-            "type": "important"
+            "type": "unimportant"
         },
         {
             "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2022_09_30_Appreciation_Certificate.png",
@@ -101,7 +101,7 @@
         {
             "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2022_09_03_TCS_(S)miles_Award.PNG",
             "date": "3 SEP 2022",
-            "description": "TCS Smile Award given for taking interview.",
+            "description": "TCS Smile Award.",
             "tag": "TCS, Award, Interview",
             "type": "important"
         },
@@ -122,16 +122,16 @@
         {
             "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2022_06_13_TCS_(S)miles_Award.png",
             "date": "13 JUN 2022",
-            "description": "TCS Smile Award given for taking interview.",
+            "description": "TCS Smile Award.",
             "tag": "TCS, Award, Interview",
-            "type": "important"
+            "type": "unimportant"
         },
         {
             "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2022_04_12_TCS_(S)miles_Award.png",
             "date": "12 APR 2022",
-            "description": "TCS Smile Award given for taking interview.",
+            "description": "TCS Smile Award.",
             "tag": "TCS, Award, Interview",
-            "type": "important"
+            "type": "unimportant"
         },
         {
             "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2022_02_10_TCS_GnT_Awareness_E0.png",
@@ -143,9 +143,9 @@
         {
             "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2022_02_08_TCS_(S)miles_Award.png",
             "date": "8 FEB 2022",
-            "description": "TCS Smile Award given for taking interview.",
+            "description": "TCS Smile Award.",
             "tag": "TCS, Award, Interview",
-            "type": "important"
+            "type": "unimportant"
         },
         {
             "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2022_01_09_Google_Play_Store_Listing.png",
