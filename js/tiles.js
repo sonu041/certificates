@@ -1,6 +1,5 @@
 let allCertificates = [];
 
-// Load certificates on page load
 $(document).ready(function() {
   // Fetch the JSON data
   $.ajax({
@@ -8,6 +7,8 @@ $(document).ready(function() {
     dataType: 'json',
     success: function(data) {
       allCertificates = data.data;
+      // Load all tiles on page load
+      displayAllTiles(allCertificates);
     }
   });
 
@@ -47,7 +48,7 @@ $(document).ready(function() {
     }
   });
 
-  // Go-to-top button: show on scroll and smooth scroll to top on click
+  // Go-to-top button: show on scroll and smooth scroll to top on click (tiles page)
   const $goTop = $('#goTopBtn');
   if ($goTop.length) {
     $goTop.hide();
@@ -63,6 +64,9 @@ $(document).ready(function() {
       $('html, body').animate({ scrollTop: 0 }, 500);
     });
   }
+
+  // Set 'All' as active on page load
+  $('.tag-btn[data-tag="ALL"]').addClass('active');
 });
 
 function performSearch() {
@@ -91,36 +95,59 @@ function performSearch() {
   }
 
   // Display results
-  displaySearchResults(filteredCertificates, searchTerm);
+  displayTilesResults(filteredCertificates, searchTerm);
 }
 
-function displaySearchResults(results, searchTerm) {
-  const timelineContainer = $('.timeline .container');
-  
-  // Clear existing items
-  timelineContainer.html('');
+function displayAllTiles(certificates) {
+  const tilesGrid = $('#tilesGrid');
+  tilesGrid.html('');
 
-  if (results.length === 0) {
-    timelineContainer.html('<p style="text-align: center; margin: 50px 0;">No certificates found matching "' + searchTerm + '"</p>');
-    return;
-  }
-
-  // Display search results
-  results.forEach((cert, index) => {
-    const timelineItem = `
-      <div class="timeline-item">
-        <div class="timeline-img"></div>
-        <div class="timeline-content timeline-card ${index % 2 === 0 ? 'js--fadeInLeft' : 'js--fadeInRight'}">
-          <img src="${cert.image_file}" width="100%">
-          <div class="date">${cert.date}</div>
-          <p>${cert.description}</p>
+  certificates.forEach((cert) => {
+    const tile = `
+      <div class="tile">
+        <div class="tile-image">
+          <img src="${cert.image_file}" alt="Certificate">
+        </div>
+        <div class="tile-content">
+          <div class="tile-date">${cert.date}</div>
+          <div class="tile-description">${cert.description}</div>
         </div>
       </div>
     `;
-    timelineContainer.append(timelineItem);
+    tilesGrid.append(tile);
   });
 
-  // Re-initialize scroll animations for new elements
+  // Re-initialize scroll animations
+  if (typeof ScrollReveal !== 'undefined') {
+    ScrollReveal().sync();
+  }
+}
+
+function displayTilesResults(results, searchTerm) {
+  const tilesGrid = $('#tilesGrid');
+  tilesGrid.html('');
+
+  if (results.length === 0) {
+    tilesGrid.html('<p style="text-align: center; margin: 50px 0; grid-column: 1 / -1;">No certificates found matching "' + searchTerm + '"</p>');
+    return;
+  }
+
+  results.forEach((cert) => {
+    const tile = `
+      <div class="tile">
+        <div class="tile-image">
+          <img src="${cert.image_file}" alt="Certificate">
+        </div>
+        <div class="tile-content">
+          <div class="tile-date">${cert.date}</div>
+          <div class="tile-description">${cert.description}</div>
+        </div>
+      </div>
+    `;
+    tilesGrid.append(tile);
+  });
+
+  // Re-initialize scroll animations
   if (typeof ScrollReveal !== 'undefined') {
     ScrollReveal().sync();
   }

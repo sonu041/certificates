@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Certificate Timeline</title>
+  <title>Certificate Tiles</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:100i,300,400,500,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
@@ -58,56 +58,20 @@
   <!-- View toggle buttons -->
   <div class="view-toggle">
     <div class="container">
-      <a href="index.php" class="btn btn-default active">Timeline View</a>
-      <a href="tiles.php" class="btn btn-default">Tile View</a>
+      <a href="index.php" class="btn btn-default">Timeline View</a>
+      <a href="tiles.php" class="btn btn-default active">Tile View</a>
     </div>
   </div>
-  <?php
-  // Read the JSON file
-  $json = file_get_contents('https://raw.githubusercontent.com/sonu041/certificates/main/certificates.json');
-      
-  // Decode the JSON file
-  $json_data = json_decode($json,true);
 
-  if(isset($_GET['view']) && $_GET['view'] == 'list') {
-  ?>
-  <section>
-  <?php
-    foreach ($json_data as $key => $value) {
-      foreach ($value as $key => $val) {
-    ?>
-    <p><?php echo $val['date'].' - '.$val['description']; ?></p>
-    <?php
-      }
-    }
-    ?>
-  </section>
-  
-  <?php
-  } else {
-  ?>
-  <section class="timeline">
+  <section class="tiles-section">
     <div class="container">
-    <?php
-    foreach ($json_data as $key => $value) {
-      foreach ($value as $key => $val) {
-    ?>
-        <div class="timeline-item">
-          <div class="timeline-img"></div>
-          <div class="timeline-content timeline-card <?php echo $key%2==0?'js--fadeInLeft':'js--fadeInRight'; ?>">
-            <img src="<?php echo $val['image_file']; ?>" width="100%">
-            <div class="date"><?php echo $val['date']; ?></div>
-            <p><?php echo $val['description']; ?></p>
-          </div>
-        </div> 
-    <?php
-      }
-    }
-  }
-    ?>
+      <div class="tiles-grid" id="tilesGrid">
+        <!-- Tiles will be populated by JavaScript -->
+      </div>
     </div>
-  </section>   
+  </section>
   <button id="goTopBtn" class="go-top" title="Go to top" aria-label="Go to top">↑</button>
+
   <div class="modal-overlay" id="imageModal">
     <div class="modal-content">
       <span class="close-modal">&times;</span>
@@ -115,10 +79,11 @@
       <img id="modalImage" src="" alt="Certificate">
     </div>
   </div>
+
   <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
   <script src='https://cdn.jsdelivr.net/scrollreveal.js/3.3.1/scrollreveal.min.js'></script>
   <script src="js/index.js"></script>
   <script src="js/modal.js"></script>
-  <script src="js/search.js"></script>
+  <script src="js/tiles.js"></script>
 </body>
 </html>
