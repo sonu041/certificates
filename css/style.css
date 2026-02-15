@@ -495,5 +495,6 @@ blockquote {
     text-align: center;
     font-size: 18px;
     padding-right: 64px; /* ensure title doesn't underlap the hamburger */
+    padding-left: 80px; /* ensure title doesn't underlap the Home button */
   }
 }

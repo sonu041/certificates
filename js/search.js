@@ -47,6 +47,11 @@ $(document).ready(function() {
     }
   });
 
+  // Show-all checkbox change handler
+  $(document).on('change', '#showAllCheckbox', function() {
+    applyTypeFilterTimeline();
+  });
+
   // Go-to-top button: show on scroll and smooth scroll to top on click
   const $goTop = $('#goTopBtn');
   if ($goTop.length) {
@@ -88,10 +93,22 @@ function performSearch() {
              cert.description.toLowerCase().includes(searchTerm) ||
              (cert.tag && cert.tag.toLowerCase().includes(searchTerm));
     });
+
   }
 
   // Display results
   displaySearchResults(filteredCertificates, searchTerm);
+}
+
+// Apply type filter for timeline view (separate from performSearch)
+function applyTypeFilterTimeline() {
+  const showAll = $('#showAllCheckbox').is(':checked');
+  let filtered = allCertificates;
+  if (!showAll) {
+    filtered = allCertificates.filter(cert => (cert.type && cert.type.toLowerCase() === 'important'));
+  }
+  // Render timeline with the filtered set
+  displaySearchResults(filtered, '');
 }
 
 function displaySearchResults(results, searchTerm) {

@@ -31,10 +31,10 @@
         <nav class="nav-menu">
           <div class="search-section">
             <div class="input-group">
-              <input type="text" id="searchInput" class="form-control" placeholder="Search certificates by date or description...">
-              <span class="input-group-btn">
-                <button id="searchBtn" class="btn btn-primary">Search</button>
-              </span>
+                <input type="text" id="searchInput" class="form-control" placeholder="Search certificates by date or description...">
+                <span class="input-group-btn">
+                  <button id="searchBtn" class="btn btn-primary">Search</button>
+                </span>
             </div>
           </div>
         </nav>
@@ -60,6 +60,10 @@
     <div class="container">
       <a href="index.php" class="btn btn-default active">Timeline View</a>
       <a href="tiles.php" class="btn btn-default">Tile View</a>
+      <label style="margin-left:12px; display:inline-flex; align-items:center;">
+        <input type="checkbox" id="showAllCheckbox" style="margin-right:6px;" />
+        <span style="margin:0;">Show all certificates</span>
+      </label>
     </div>
   </div>
   <?php
@@ -91,6 +95,8 @@
     <?php
     foreach ($json_data as $key => $value) {
       foreach ($value as $key => $val) {
+        // By default show only important certificates in timeline view
+        if (!isset($val['type']) || strtolower($val['type']) !== 'important') continue;
     ?>
         <div class="timeline-item">
           <div class="timeline-img"></div>

@@ -7,8 +7,8 @@ $(document).ready(function() {
     dataType: 'json',
     success: function(data) {
       allCertificates = data.data;
-      // Load all tiles on page load
-      displayAllTiles(allCertificates);
+      // Show only important certificates by default on initial load
+      applyTypeFilterTiles();
     }
   });
 
@@ -46,6 +46,11 @@ $(document).ready(function() {
       performSearch();
       return false;
     }
+  });
+
+  // Show-all checkbox change handler (controls tiles display only)
+  $(document).on('change', '#showAllCheckbox', function() {
+    applyTypeFilterTiles();
   });
 
   // Go-to-top button: show on scroll and smooth scroll to top on click (tiles page)
@@ -94,8 +99,18 @@ function performSearch() {
     });
   }
 
-  // Display results
+  // Display results (performSearch does not consider the show-all checkbox)
   displayTilesResults(filteredCertificates, searchTerm);
+}
+
+// Apply type filter for tiles view (separate from performSearch)
+function applyTypeFilterTiles() {
+  const showAll = $('#showAllCheckbox').is(':checked');
+  let filtered = allCertificates;
+  if (!showAll) {
+    filtered = allCertificates.filter(cert => (cert.type && cert.type.toLowerCase() === 'important'));
+  }
+  displayAllTiles(filtered);
 }
 
 function displayAllTiles(certificates) {

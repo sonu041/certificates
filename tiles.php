@@ -60,6 +60,10 @@
     <div class="container">
       <a href="index.php" class="btn btn-default">Timeline View</a>
       <a href="tiles.php" class="btn btn-default active">Tile View</a>
+      <label style="margin-left:12px; display:inline-flex; align-items:center;">
+        <input type="checkbox" id="showAllCheckbox" style="margin-right:6px;" />
+        <span style="margin:0;">Show all certificates</span>
+      </label>
     </div>
   </div>
 
