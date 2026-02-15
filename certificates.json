@@ -78,7 +78,7 @@
             "type": "important"
         },
         {
-            "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2022_12_08_TCS_(S)miles_AWARD.png",
+            "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2022_12_08_TCS_(S)miles_Award.png",
             "date": "08 DEC 2022",
             "description": "TCS Smile Award",
             "tag": "TCS, Award, Recognition",
@@ -92,7 +92,7 @@
             "type": "important"
         },
         {
-            "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2022_09_07_GCP_ACE_Certificate.PNG",
+            "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2022_09_07_GCP_ACE_Certificate.png",
             "date": "7 SEP 2022",
             "description": "Google Cloud Platform - Associate Cloud Engineer <a href='https://www.credly.com/badges/34937398-282c-47bc-8844-8dd45bdd8ff6' target='_blank' class='btn'>Validate</a>",
             "tag": "GCP, Google Cloud, Cloud Engineer, Associate",
@@ -194,6 +194,62 @@
             "date": "27 JAN 2021",
             "description": "1st in TCS Best Ethical Hacking Contest 2020",
             "tag": "TCS, Hacking, Security, Contest, 1st Place",
+            "type": "important"
+        },
+        {
+            "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2017_12_01_TCS_BEH.png",
+            "date": "1 DEC 2017",
+            "description": "TCS Best Ethical Hacking 2017",
+            "tag": "TCS, Hacking, Security, Contest",
+            "type": "important"
+        },
+        {
+            "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2017_01_20_TCS_Appreciation.png",
+            "date": "20 JAN 2017",
+            "description": "TCS Appreciation",
+            "tag": "TCS, Appreciation, Award",
+            "type": "important"
+        },
+        {
+            "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2017_02_15_MCSA_Charter_70-486.png",
+            "date": "15 FEB 2017",
+            "description": "MCSA Charter: Programming in HTML5 with JavaScript and CSS3",
+            "tag": "Microsoft, MCSA, Exam 70-486, HTML5, JavaScript, CSS3",
+            "type": "important"
+        },
+        {
+            "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2017_02_15_MCSD.png",
+            "date": "15 FEB 2017",
+            "description": "Microsoft Certified Solutions Developer",
+            "tag": "Microsoft, MCSD, Certified",
+            "type": "important"
+        },
+        {
+            "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2015_05_20_MCP.png",
+            "date": "20 MAY 2015",
+            "description": "Microsoft Certified Professional",
+            "tag": "Microsoft, Certified, Professional",
+            "type": "important"
+        },
+        {
+            "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2015_05_20_MS_70-480.png",
+            "date": "20 MAY 2015",
+            "description": "Microsoft Exam 70-480: Programming in HTML5 with JavaScript and CSS3",
+            "tag": "Microsoft, Exam, HTML5, JavaScript, CSS3",
+            "type": "important"
+        },
+        {
+            "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2013_08_01_Atos_Accolade_Bronze.png",
+            "date": "1 AUG 2013",
+            "description": "Atos Accolade Bronze 2013",
+            "tag": "Atos, Accolade, Award, Bronze",
+            "type": "important"
+        },
+        {
+            "image_file": "https://raw.githubusercontent.com/sonu041/certificates/main/assets/2012_02_27_Atos_Accolade_Bronze.png",
+            "date": "27 FEB 2012",
+            "description": "Atos Accolade Bronze 2012",
+            "tag": "Atos, Accolade, Award, Bronze",
             "type": "important"
         },
         {

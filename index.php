@@ -51,6 +51,7 @@
         <button class="tag-btn btn btn-default" data-tag="Run">Run</button>
         <button class="tag-btn btn btn-default" data-tag="TCS">TCS</button>
         <button class="tag-btn btn btn-default" data-tag="Infosys">Infosys</button>
+        <button class="tag-btn btn btn-default" data-tag="Atos">Atos</button>
       </div>
     </div>
   </div>
